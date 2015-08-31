@@ -7,6 +7,7 @@ gem 'rails', '4.2.3'
 group :test, :development do
 gem 'sqlite3'
 end
+
 # adding pg as needed for heroku deployment
 group :production do
 gem 'pg'
